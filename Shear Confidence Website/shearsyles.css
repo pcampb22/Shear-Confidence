@@ -1,0 +1,348 @@
+/*
+  
+
+   Shear Confidence By Brittney Salon 
+   
+   Author: Phylicia Campbell
+   Date: 12/20/2015  
+
+   Filename:         shearsyles.css
+   Supporting Files: scHomelogo1.png, ico-facebook.png, ico-instagram.png
+      				 ico-twitter.png, shearsyles.css, salon.jpg,
+      				 banner.png, newclientpromo.png, referpromo.png,
+      				 eyelashpromo.png
+
+*/
+
+
+
+/* font faces */
+@font-face {
+  font-family:"Sonic";
+  src: url('font/SonicBarrier.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: "SAir";
+	src: url('font/SouthernAire.ttf') format('truetype');
+	}
+
+
+
+/* Header Navigation Bar Styles */
+
+header {
+	background-color: rgb(0,0,0);
+	float: left;
+	width: 100%;
+	margin-right:5px;
+	}
+
+header h1{
+	margin: 0px 0px 0px 15px;
+	color: white;
+	font-family: Arial, san-serif, Verdana;
+}
+
+header h1 img {
+	display: block;
+	float: left;
+	margin: 0px 15px 0px -3px;
+	width: 400px;	
+	}
+	
+header p {
+	color: white;
+	float: right;
+	font-family: 'Sonic', Arial, Verdana;
+	font-size: 25px;
+	margin-top: 10px;
+	margin-right: 30px;
+	
+	}
+
+
+/* Navigation Menu Styles */
+nav.horizontal ul li {
+	clear:right;
+	float: left;
+	font-family: Arial,'Century Gothic', sans-serif; 
+	font-size: 0.9em;
+	list-style-type: none;
+	padding: 5px 15px;
+	margin: 50px 20px 0px 0px;
+	}
+
+nav.horizontal ul li a {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+
+nav.horizontal ul li a:hover {
+	color: rgb(022, 145, 150);
+}
+
+/* Body Styles*/
+body {
+	
+	background-image: url("images/wood.jpg");
+	background-repeat: tile;
+	position: relative;
+	min-width: 1000px;
+	max-width: 1400px;
+}
+
+
+
+
+
+/*Section Styles */
+section {
+	background-color: rgba(022,022,022, .4);
+	
+	background-repeat:tile;
+	
+	width: 100%;
+	}
+
+section h1 {
+	color: rgb(255,255,255);
+	font-size: 2.9em;
+	font-family: 'Sonic', Arial, Verdana;
+	font-weight: none;
+	font-variant: small-caps;
+	letter-spacing: 4px;
+	text-align: center;
+}
+
+section h2 {
+	color: rgba(255, 255, 255,.9);
+	font-size: 2.5em;
+	font-family: 'Sonic', Arial, Verdana, sans-serif;
+	letter-spacing: 7px;
+	word-spacing: 2px;
+	padding-top: 5px ;
+	margin: 40px auto 10px auto;
+	text-align:center;
+
+}
+
+
+section p {
+	clear: left;
+	color: rgba(255,255,255,.9);
+	display: block;
+	font-family: 'Century Gothic';
+	font-variant: small-caps;
+	letter-spacing: 2px;
+}
+
+.center {
+	text-align: center;
+	}
+
+/* Women's Service Table Styles */
+
+table.Wservices{
+	background-color: rgba(255, 255, 255, .5);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.75em;
+	width:100%;
+	}
+
+table.Wservices caption {
+	color: white;
+	font-family: 'Sonic', Arial, Verdana, sans-serif;
+	font-size: 50px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+	
+table.Wservices thead {
+	color: rgba(0,108,109, .9);
+	font-size: 20px;
+	}
+
+table.Wservices td {
+	font-size: 12px;
+	text-align: center;
+}
+
+/* Men's Service Table Styles */
+
+table.Mservices{
+	background-color: rgba(255, 255, 255, .5);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.75em;
+	padding-bottom: 15px;
+	width:100%;
+	}
+
+table.Mservices caption {
+	color: white;
+	font-family: 'Sonic', Arial, Verdana, sans-serif;
+	font-size: 50px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+	
+table.Mservices thead {
+	color: rgba(0,108,109, .9);
+	font-size: 20px;
+	}
+
+
+table.Mservices td {
+	font-size: 12px;
+	text-align: center;
+}
+
+
+/* ID Styles */
+
+#banner {
+
+	margin: 0px -15px 0px -15px;
+	width: 90px;
+}
+
+
+#mainSalon {
+	width:100%;
+}
+
+#promo {
+		border: 3px dashed rgb(022, 122, 122);
+		-moz-border-radius:50px;
+		-webkit-border-radius:50px;
+		border-radius: 50px;
+		
+		margin: 20px -20px 25px 120px;
+		padding: 5px;
+	
+		height: 300px;
+		width: 250px;
+}
+
+#salonMap {
+	margin-left: 330px;
+	
+	}
+
+#HeaderIcon {
+	border: 1px solid rgb(123,123,123);
+	border-radius: 50px;
+	clear: left;
+	float: right;
+	padding: 3px;
+	margin:5px;
+}
+
+
+
+
+/* Field set styles */
+
+form {
+	margin-left: 300px;
+}
+
+fieldset {
+	background-color:rgba(255, 255, 255, .4);
+	border: 1px solid rgba(022, 122, 122, .6);
+	margin: 10px 0px 10px 2.5%;
+	width: 60%;
+		}
+
+legend {
+	background-color: rgba(022, 122, 122, .6);
+	color: white;
+	padding: 3px 0px;
+	text-indent: 5px;
+	width: 100%;
+		}
+		
+/* Label styles */
+label {
+	clear: left;
+	display: block;
+	float: left;
+	font-size: 0.9em;
+	margin: 7px 3px; 7px 5px;
+	width: 20%;
+	  	}
+	  	
+/* Input Styles */	  	
+input {
+	display: block;
+	float: left;
+	font-size: 0.9em;
+	margin: 7px 0px;
+	width: 40%;
+	}
+	
+/* Button styles */
+
+form p {
+	text-align: center;
+	}
+
+input[type="submit"], input[type="reset"] {
+	display: inline;
+	height: 25px;
+	width: 80px;
+	
+	}	
+	
+
+/* Text area styles */
+
+textarea {
+	display: block;
+	font-size: 0.9em;
+	float: left;
+	height: 100px;
+	margin: 10px 0px;
+	width: 40%;
+	}
+	
+
+
+/* Check box styles */
+#newsletter {
+	color: rgb(255,255,255);
+	float: none;
+	margin: 10px auto;
+	text-align: left;
+	width: 90%;
+	}
+	
+#newsletter input {
+	display: inline;
+	float: none;
+	width: 20px;
+	}
+
+
+/*Footer Styles */
+
+footer {
+	clear: both;
+	background-color: rgba(255, 255, 255, .5);
+	font-family: Arial, Verdana, sans-serif;
+	font-size:0.8em;
+	}
+	
+footer address {
+	text-align: right;
+	}
+
+
+footer a {
+	color: rgb(022, 145, 150);
+	text-decoration: none;
+	}
+	
+footer a:hover {
+	color: white;
+	}
